@@ -1,0 +1,71 @@
+<!-- copy/paste from lordhelpmex2 -->
+<!-- lordhelpmex200.html*** this will update the price of the big salad but will no longer work for the small salad. Back logging both but combining instead of adding the two together. I just found a simple video that adds two numbers together. Can I get enough information to figure this out or not...I think it is because it is treating the numbers as strings instead of numbers. I have been making changes, making changes, trying something different and nothing will work....Why you ask? Because yesterday, I went back to one that did work and that is the one on the f**king screen, not the one I have made the changes to!!!!!-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How many more times will I try this?</title>
+    <link rel="stylesheet" href="lordhelpmex200.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="lordhelpmex200.js"></script>
+</head>
+<header id = "header">
+<p id ="header-text">Dye's Cafe</p>
+    <img src="tablecloth.png" id = 'backgroundPhoto' style="opacity: .5;">
+</header>
+
+<body>
+    <h3 id = "menuTitle">The Menu...</h3>
+
+<div id = 'bigSaladInfo'>
+
+    <b>The <i>BIG</i> Salad</b><br><span id = "itemOne">Price: $10</span><br>
+
+<p id = "item1">Our BIG salad is a truly big salad with a little price. A huge bed of baby      spinach, cherry tomatoes, shredded cheese, diced ham, fried onions, egg crumbles....whatever else we can dig up. These salads are made up weeks in advance so <b>NO special requests!</b>
+</p>
+    <img src="saladphoto.jpg" id = "photosAll" alt="salad">
+
+    <h5>Just so you know, your salad will look nothing like this!</h5>
+
+<button id = "addFirstItem" class = "addItem" onclick="getValue()">add the BIG Salad?</button>
+    More than one? <input type="number" id="foo" value = "1" min="1" max="20">
+
+    <br>
+
+    <p style="font-size: x-small;">Limit 20 please! (We have other customers to wait on...)</p>
+    <input class ="input" type="number" id="big-salad" value= "10" style="visibility: hidden;">
+    <br>
+
+</div>
+
+    <!-- foo--number requested -->
+    <hr class="line-seperator">
+
+<div id ="item2"><b>The <i>SMALL</i> Salad</b><br><span>$9</span>
+
+    <p>The small salad. A smaller version of our big salad...duh! Use your imagination for a change.
+    </p>
+<br>
+    <img src="smallsalad.jpg" id = "photosAll" alt="salad">
+
+    <h5>Just so you know, your salad may look like this!</h5>
+
+<button id = "addSecondItem" class = "addItem" onclick="getValue()">The Small Salad $9</button>
+    How Many: <input type="number" id="poo" value = "1" min="1" max="20">
+    <br>
+<!--Currently, when you click this button, it adds both salads to the cart.But after the first click they work independently. Sadly, I don't think I am ever going to solve this dilema-->
+    <input class ="input" type="number" id="small-salad" value= "9" style="visibility: hidden;">
+    <br><!-- soo--times $9 -->
+</div>  
+<hr class="line-seperator">
+
+    <h2>Your Cart</h2>
+
+    <h2 id = "boo"></h2><!--This is where the total goes when the buttons are clicked-->
+    
+    <p style="font-size: xx-small;">Dang this stuff is EXPENSIVE!!!</p>
+</body>
+</html>

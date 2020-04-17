@@ -1,0 +1,56 @@
+
+body {
+font-family: 'Permanent Marker', cursive;
+background-color: rgb(193, 210, 226);
+}
+#header {
+    position: relative;
+    height: 150px;
+    /* position: -100px; */
+}
+#header-text {
+/* background-position: 50px; */
+/* margin-left: auto; */
+/* margin-right: auto; */
+text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    height: 100px;
+
+}
+#backgroundPhoto {
+    position: -20px;
+    z-index: 1;
+}
+
+#menuTitle {
+    font-size: 50px;
+    position: -100px;
+}
+#photosAll {
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(105, 102, 102);
+}
+#bigSaladInfo {
+    margin-top: 120px;
+}
+
+.addItem {
+    width: 100px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgb(80, 175, 80);
+    box-shadow: -5px -5px rgb(105, 102, 102);
+}
+
+.input {
+    width: 15px;
+    border: 2px solid gray;
+}
+
+#addSecondItem {
+    position: relative;
+    margin-top: 10px;
+    /* margin-left: -100px; */
+}

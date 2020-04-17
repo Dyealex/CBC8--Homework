@@ -1,2 +1,2 @@
-# CBC8--Homework
-My other attempt was a total failure. Trying to get it straightened out.....
+# TheMenuApp
+The week 8 homework assignment of the menu app
